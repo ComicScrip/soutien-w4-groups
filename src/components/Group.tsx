@@ -3,7 +3,7 @@ interface groupProps {
 }
 export default function Group({ group }: groupProps) {
   return (
-    <div className="border border-black p-2">
+    <div className="group_item">
       <ul>
         {group.map((el, i) => (
           <li key={i}>{el}</li>

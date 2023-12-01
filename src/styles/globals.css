@@ -1,3 +1,82 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* -----------------------  Global  ------------------------------ */
+body {
+  background-color: #1d232a;
+  color: aliceblue;
+}
+.app {
+  display: flex;
+}
+
+/* -----------------------  input student (Kévin)  ------------------------------ */
+
+.input-field {
+  height: 100vh;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #1d232a;
+  color: aliceblue;
+  padding: 1rem;
+}
+
+/* -----------------------  button filter (Marco)  ------------------------------ */
+
+.btn-container {
+  border: solid beige 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80vw;
+  height: 60px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.number-group-input {
+  border: beige solid 2px;
+  background-color: #1d232a;
+  border-radius: 5px;
+  margin: 0 20px;
+  padding-left: 5px;
+}
+
+.randomize-input {
+  border: beige solid 2px;
+  background-color: #1d232a;
+  border-radius: 5px;
+  margin: 0 20px;
+  padding: 10px;
+  background-color: rgb(110, 110, 110);
+  transition: all 0.2s ease-in;
+}
+
+.randomize-input:hover {
+  background-color: #1d232a;
+  scale: 1.04;
+}
+
+/* -----------------------  groups rendering (Léo)  ------------------------------ */
+
+.group_wrapper {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.group_item {
+  padding: 1rem;
+  background-color: rgb(41, 41, 41);
+  border-radius: 0.5rem;
+  border: solid rgb(143, 143, 143) 2px;
+  min-width: 100px;
+}
